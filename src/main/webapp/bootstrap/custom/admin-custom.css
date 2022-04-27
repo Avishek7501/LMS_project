@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+.h-32{
+	height:32px;
+}
+
+  .gap-16 {
+  gap: 16px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.dashboard {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  padding: 8px 16px;
+  z-index:101;
+}
+
+.brand {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+.brand > a {
+  text-decoration: none;
+}
+
+.panel {
+  padding-left: 264px;
+  box-sizing: border-box;
+  padding-right: 64px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.card {
+  margin-top: 100px;
+  padding: 10px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 3px rgb(31, 144, 236);
+}
+
+.card a{
+	text-decoration:none;
+	
+}
+
+.count{
+	color:black !important;
+	font-size:30px;
+}
+
+.menu li:hover {
+  background-color: rgb(173, 171, 168);
+}
+
+.menu li {
+  padding: 5px;
+}
+
+.formpanel{
+	padding-top:80px;
+}
+
+.topbar{
+	position:fixed;
+	z-index:100;
+}
+
+.titlename{
+	padding:30px 0px;
+}
+.tabprop{
+	margin-top:100px;
+}

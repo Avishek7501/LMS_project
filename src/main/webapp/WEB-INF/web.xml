@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>LMS_Project_IV</display-name>
+  <welcome-file-list>
+   
+    <welcome-file>index.jsp</welcome-file>
+   
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>myservlet</servlet-name>
+  <servlet-class>Controller.MainServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>myservlet</servlet-name>
+  <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>adminservlet</servlet-name>
+  <servlet-class>Controller.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>adminservlet</servlet-name>
+  <url-pattern>/admin/dashboard</url-pattern>
+  <url-pattern>/admin/member_register</url-pattern>
+  <url-pattern>/admin/book_register</url-pattern>
+  <url-pattern>/admin/e-book_upload</url-pattern>
+  <url-pattern>/admin/issue_book</url-pattern>
+  <url-pattern>/admin/return_book</url-pattern>
+  <url-pattern>/admin/lost_book</url-pattern>
+  <url-pattern>/admin/admin_register</url-pattern>
+  <url-pattern>/admin/logout</url-pattern>
+  <url-pattern>/admin/memberlist</url-pattern>
+  <url-pattern>/admin/booklist</url-pattern>
+  <url-pattern>/admin/adminlist</url-pattern>
+  <url-pattern>/admin/issuelist</url-pattern>
+  <url-pattern>/admin/bookfilter</url-pattern>
+  <url-pattern>/admin/booksearch</url-pattern>
+  <url-pattern>/admin/edit_book</url-pattern>
+  <url-pattern>/admin/delete_book</url-pattern>
+  
+  </servlet-mapping>
+</web-app>
